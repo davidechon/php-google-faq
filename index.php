@@ -30,6 +30,24 @@ include 'database.php';
   <title>Php Google Faq</title>
 </head>
 <body>
+<header>
+      <nav class="container-fluid">
+        <div class="nav-top row d-flex nowrap justify-content-start align-items-center">
+          <img src="" alt="logo">
+          <h1>Privacy e termini</h1>
+        </div> <!-- /div nav-top -->
+        <div class="nav-bottom row d-flex justify-content-center align-items-center">
+          <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li class="active">Domande frequenti</li>
+          </ul>
+        </div> <!-- /div nav-bottom -->
+
+      </nav>
+    </header>
   <main>
     <div class="container"> 
     <ul>
